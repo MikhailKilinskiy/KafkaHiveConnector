@@ -8,7 +8,7 @@ sourceCompatibility = 1.8
 
 buildscript {
     repositories {
-        maven { url "http://rep.msk.mts.ru/artifactory/libs-release" }
+        mavenCentral
     }
 
     dependencies {
@@ -19,7 +19,7 @@ buildscript {
 }
 
 repositories {
-    maven { url "http://rep.msk.mts.ru/artifactory/libs-release" }
+    mavenCentral
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
